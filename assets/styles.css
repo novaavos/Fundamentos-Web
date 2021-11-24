@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&display=swap');
+
+body {
+    background-color: rgb(37, 37, 37);
+    margin: 0px;
+}
+
+#titulo {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: whitesmoke;
+    justify-content: flex-start;
+    margin-left: 20px;
+} 
+#titulo:hover{
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color: rgb(27, 27, 27);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: whitesmoke;
+    margin-left: 0px;
+}
+
+.topMenu {
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.topMenu li{
+    display: inline;
+    padding: 10px;
+}
+.topMenu a{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.topMenu a:hover{
+    color: rgba(255, 255, 255, 0.562);
+}
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: whitesmoke;
+}
+
+hr {
+
+    margin-bottom: 50px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#post {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#post p{
+    margin: 20px;
+}
+#post img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+}
+
+#section {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin: 0 30px 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#section li{
+    display: table-row;
+    margin: 10px;
+}
+#section a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 30px;
+    align-content: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: end;
+    margin-right: -90px;
+
+}
+
+#avatar {
+    justify-content:flex-end;
+    border-radius: 50% 0 0 50%; 
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contato{
+    display: flex;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 70);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+}
+#contato div{
+    margin: auto;
+}
+#contato h1{
+    color: whitesmoke;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+}
+#contato label{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: whitesmoke;
+}
+#contato input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.button {
+    background-color: whitesmoke;
+    border: 2px solid #7f1e8b;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    margin: 4px 35% 8px;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #7f1e8b;
+    color: white;
+    box-shadow: 0 0 1em #7f1e8b;
+}
+
