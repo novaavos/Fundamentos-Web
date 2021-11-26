@@ -14,11 +14,13 @@
         </div>
         <div>
             <form>
-                <label for="username">Usuário:</label><br>
-                <input type="text" id="username" name="username"><br>
-                <label for="pwd">Senha:</label><br>
-                <input type="password" id="pwd" name="pwd">
-                <button type="button" onclick="alert('Logado!')" class="button">Login</button>
+                <label for="username">Usuário:</label>
+                <div id="txtNome"> </div>
+                <input type="text" id="username" name="username" onkeyup="validaNome()"> 
+                <label for="pwd">Senha:</label>
+                <div id="pwdText"> </div>
+                <input type="password" id="pwd" name="pwd" onkeyup="pwdCheck()">
+                <button type="button" class="button" id="button" onclick="enviar()">Login</button>
               </form>
     
         </div>
@@ -26,4 +28,5 @@
     </div>
 
 </body>
+<script src="assets/js/script.js"></script>
 </html>
